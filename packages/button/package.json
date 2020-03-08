@@ -1,6 +1,6 @@
 {
     "name": "@endurance-x/button",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "button atomic unit",
     "author": "jhamPac <cloud@kevia.me>",
     "homepage": "",
@@ -13,7 +13,6 @@
     "scripts": {
         "test": "jest"
     },
-    "dependencies": {},
     "peerDependencies": {
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
