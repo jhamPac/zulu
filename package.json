@@ -1,20 +1,21 @@
 {
   "name": "@endurance-x/vibranium",
   "version": "1.0.0",
-  "description": "Package to test publishing",
-  "main": "index.js",
   "private": true,
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "us",
+  "description": "Package to test publishing",
   "license": "ISC",
+  "author": "us",
+  "main": "index.js",
   "files": [
     "dist"
   ],
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
@@ -64,6 +65,5 @@
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  },
-  "dependencies": {}
+  }
 }
