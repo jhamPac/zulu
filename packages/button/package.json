@@ -1,18 +1,16 @@
 {
-  "name": "button",
+  "name": "@endurance-x/button",
   "version": "0.0.0",
   "description": "button atomic unit",
   "author": "jhamPac <cloud@kevia.me>",
   "homepage": "",
   "license": "ISC",
   "main": "dist/index.js",
-  "directories": {
-    "test": "__tests__"
-  },
   "files": [
     "dist/index.js"
   ],
   "scripts": {
     "test": "jest"
-  }
+  },
+  "dependencies": {}
 }
