@@ -1,1 +1,3 @@
-// silence is golden
+const Button = require('./packages/button/dist/index.js');
+
+export { Button };

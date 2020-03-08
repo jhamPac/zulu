@@ -7,7 +7,7 @@
     "author": "us",
     "main": "index.js",
     "files": [
-        "dist"
+        "packages/**/dist/index.js"
     ],
     "workspaces": [
         "packages/*"
