@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Package to test publishing",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest"
   },
@@ -13,5 +14,6 @@
   ],
   "devDependencies": {
     "lerna": "^3.20.2"
-  }
+  },
+  "dependencies": {}
 }
