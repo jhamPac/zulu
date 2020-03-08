@@ -1,0 +1,17 @@
+{
+  "name": "@endurance-x/vibranium",
+  "version": "1.0.0",
+  "description": "Package to test publishing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "us",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
