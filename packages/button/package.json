@@ -10,11 +10,13 @@
     "files": [
         "dist/index.js"
     ],
+    "private": false,
     "scripts": {
         "test": "jest"
     },
     "peerDependencies": {
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
-    }
+    },
+    "gitHead": "a0d00965688efa05c1a52d61d092aaabaa5a67c0"
 }

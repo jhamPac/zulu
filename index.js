@@ -1,3 +1,5 @@
 const Button = require('./packages/button/dist/index.js');
 
-export { Button };
+module.exports = {
+    Button: Button,
+};
