@@ -1,7 +1,6 @@
 {
     "name": "@endurance-x/vibranium",
     "version": "1.0.0",
-    "private": false,
     "description": "Package to test publishing",
     "license": "ISC",
     "author": "us",
@@ -80,6 +79,6 @@
         "webpack-dev-server": "^3.10.3"
     },
     "publishConfig": {
-        "access": "public"
+        "registry": "https://npm.pkg.github.com/"
     }
 }
