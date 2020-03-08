@@ -12,6 +12,9 @@
   "files": [
     "dist"
   ],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
