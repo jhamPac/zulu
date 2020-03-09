@@ -9,20 +9,8 @@ module.exports = {
         libraryTarget: 'umd',
     },
     externals: {
-        react: {
-            commonjs: 'React',
-            commonjs2: 'React',
-            amd: 'React',
-            umd: 'React',
-            root: 'React',
-        },
-        'material-ui': {
-            commonjs: 'material-ui',
-            commonjs2: 'material-ui',
-            amd: 'material-ui',
-            umd: 'material-ui',
-            root: 'material-ui',
-        },
+        react: 'React',
+        'react-dom': 'ReactDOM',
     },
     target: 'web',
     module: {
