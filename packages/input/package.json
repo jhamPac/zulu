@@ -5,11 +5,8 @@
     "author": "jhamPac <cloud@kevia.me>",
     "homepage": "",
     "license": "ISC",
-    "main": "dist/index.js",
+    "main": "./index.js",
     "module": "./index.js",
-    "files": [
-        "dist/index.js"
-    ],
     "private": false,
     "scripts": {
         "test": "jest"
