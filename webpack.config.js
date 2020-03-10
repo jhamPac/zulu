@@ -43,9 +43,6 @@ module.exports = {
         ],
     },
     resolve: {
-        alias: {
-            button: path.resolve(__dirname, './packages/button/dist/index.js'),
-        },
         extensions: ['.js', '.jsx', '.css', '.scss'],
         modules: [path.join(__dirname, 'node_modules')],
         plugins: [new DirectoryNamedWebpackPlugin()],
