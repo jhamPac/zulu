@@ -7,14 +7,14 @@
     "author": "us",
     "main": "index.js",
     "files": [
-        "packages/**/dist/index.js"
+        "dist"
     ],
     "workspaces": [
         "packages/*"
     ],
     "scripts": {
         "test": "jest",
-        "create-bundles": "lerna exec --parallel --ignore example -- webpack --mode=production --config ../../webpack.config.js"
+        "create-bundles": "webpack --mode=production"
     },
     "dependencies": {},
     "devDependencies": {

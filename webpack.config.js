@@ -2,16 +2,31 @@ const path = require('path');
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin');
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        button: './packages/button/index.js',
+    },
     output: {
-        filename: './index.js',
-        library: '',
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',
         libraryTarget: 'umd',
     },
-    externals: {
-        react: 'React',
-        'react-dom': 'ReactDOM',
-    },
+    externals: [
+        {
+            react: {
+                root: 'React',
+                commonjs2: 'react',
+                commonjs: ['react'],
+                amd: 'react',
+                umd: 'react',
+            },
+        },
+        '@material-ui/core',
+        '@material-ui/icons',
+        /@material-ui\/core\/*./,
+        /@material-ui\/icons\/*./,
+        'styled-components',
+        'react-dom',
+    ],
     target: 'web',
     module: {
         rules: [
@@ -32,7 +47,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            react: path.resolve(__dirname, '../node_modules/react'),
+            react: path.resolve('./node_modules/react'),
         },
         extensions: ['.js', '.jsx', '.css', '.scss'],
         modules: [path.join(__dirname, 'node_modules')],

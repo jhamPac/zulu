@@ -1,5 +1,3 @@
-const Button = require('./packages/button/dist/index.js');
+const Button = require('./dist/button.js').default;
 
-module.exports = {
-    Button: Button,
-};
+export { Button };
