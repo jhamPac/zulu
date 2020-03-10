@@ -14,7 +14,8 @@
     ],
     "scripts": {
         "test": "jest",
-        "create-bundles": "webpack --mode=production"
+        "clean": "del-cli ./packages/core/dist",
+        "create-bundles": "yarn run clean && webpack --mode=production"
     },
     "dependencies": {},
     "devDependencies": {
