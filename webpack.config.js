@@ -44,7 +44,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            react: path.resolve('./node_modules/react'),
+            button: path.resolve(__dirname, './packages/button/dist/index.js'),
         },
         extensions: ['.js', '.jsx', '.css', '.scss'],
         modules: [path.join(__dirname, 'node_modules')],

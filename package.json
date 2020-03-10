@@ -14,7 +14,7 @@
     ],
     "scripts": {
         "test": "jest",
-        "create-bundles": "lerna exec --parallel --ignore example -- webpack --mode=production --config ../../webpack.config.js"
+        "create-bundles": "lerna exec --parallel --ignore @endurance-x/core -- webpack --mode=production --config ../../webpack.config.js"
     },
     "dependencies": {},
     "devDependencies": {

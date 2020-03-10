@@ -14,11 +14,5 @@
     "scripts": {
         "test": "jest"
     },
-    "peerDependencies": {
-        "react": "^16.13.0",
-        "react-dom": "^16.13.0",
-        "styled-components": "5.0.1"
-    },
-    "gitHead": "fe531cb3a01c843b53a636ead2710d9841960a69",
-    "dependencies": {}
+    "gitHead": "fe531cb3a01c843b53a636ead2710d9841960a69"
 }
