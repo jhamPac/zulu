@@ -14,7 +14,7 @@
     ],
     "scripts": {
         "test": "jest",
-        "create-bundles": "webpack --mode=production"
+        "create-bundles": "lerna exec --parallel --ignore example -- webpack --mode=production --config ../../webpack.config.js"
     },
     "dependencies": {},
     "devDependencies": {

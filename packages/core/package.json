@@ -1,0 +1,22 @@
+{
+    "name": "@endurance-x/core",
+    "version": "1.0.0",
+    "description": "> TODO: description",
+    "author": "jhamPac <cloud@kevia.me>",
+    "homepage": "https://github.com/jhamPac/zulu#readme",
+    "license": "ISC",
+    "main": "index.js",
+    "files": [
+        "index"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jhamPac/zulu.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/jhamPac/zulu/issues"
+    }
+}
