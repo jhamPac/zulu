@@ -7,7 +7,7 @@
     "license": "ISC",
     "main": "index.js",
     "files": [
-        "index"
+        "index.js"
     ],
     "repository": {
         "type": "git",

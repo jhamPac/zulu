@@ -1,4 +1,4 @@
-const Button = require('../button/dist/index.js').default;
-const Input = require('../input/dist/index.js').default;
+const Button = require('./dist/button.js').default;
+const Input = require('./dist/input.js').default;
 
 export { Button, Input };

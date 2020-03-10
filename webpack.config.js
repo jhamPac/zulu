@@ -2,9 +2,13 @@ const path = require('path');
 const DirectoryNamedWebpackPlugin = require('directory-named-webpack-plugin');
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        button: path.resolve(__dirname, 'packages/button/index.js'),
+        input: path.resolve(__dirname, 'packages/input/index.js'),
+    },
     output: {
-        filename: 'index.js',
+        path: path.resolve(__dirname, 'packages/core/dist'),
+        filename: '[name].js',
         libraryTarget: 'umd',
     },
     externals: [
